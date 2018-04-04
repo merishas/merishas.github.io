@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 
+
 <head>
+    <script src="https://www.puck-js.com/puck.js"></script>
     <title>SUP</title>
 </head>
 
@@ -9,7 +11,10 @@
 
     <h1>Hello Internet!</h1>
     <p>WAZZAP.</p>
-    <iframe width="560" height="315" src="https://musiclab.chromeexperiments.com/Song-Maker/embed/5475863722196992" frameborder="0" allowfullscreen></iframe>
+    <!-- <iframe width="560" height="315" src="https://musiclab.chromeexperiments.com/Song-Maker/embed/5475863722196992" frameborder="0" allowfullscreen></iframe> -->
+
+    <button onclick="Puck.write('LED1.set();\n');">On!</button>
+    <button onclick="Puck.write('LED1.reset();\n');">Off!</button>
 
 </body>
 
